@@ -7,7 +7,8 @@ describe("Test the data path", () => {
         .get("/")
         .then(response => {
           expect(response.statusCode).toBe(200);
-          done();
+          
         });
     });
   });
+  done()
